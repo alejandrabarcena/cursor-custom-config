@@ -1,0 +1,25 @@
+{
+  "agent": {
+    "preferMcp": true
+  },
+  "cursor.rules.user": [
+    {
+      "description": "Si actualizas un archivo markdown, no muestres la vista previa, solo los cambios."
+    },
+    {
+      "description": "Al imprimir variables, usa print(\"nombre_variable\", nombre_variable)."
+    },
+    {
+      "description": "No ejecutes el servidor de desarrollo automáticamente, sugiere el comando y recuerda verificar manualmente."
+    },
+    {
+      "description": "Si trabajas en front-end, aplica el modo oscuro primero."
+    },
+    {
+      "description": "Permite comandos de prueba (vitest, npm test, nr test) y build (build, tsc). Crear archivos/carpetas está bien (mkdir, touch)."
+    },
+    {
+      "description": "Ejecuta npm run build, detecta errores y corrígelos hasta que compile correctamente."
+    }
+  ]
+}
